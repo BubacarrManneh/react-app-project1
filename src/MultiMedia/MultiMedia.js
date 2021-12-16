@@ -49,7 +49,7 @@ const reduxVideoDescription = `React-Redux tutorial for absolute beginners`
 
 const Videos = () => {
     return (
-        <div className={Classes.YouTube}>
+        <div className={Classes.YouTube} id="Videos">
             <img className={Classes.Background} src={Background} alt="Background"></img>
             <PageHeader title={'YouTube Videos'}/>
             <dive className={Classes.YouTubeContent}>

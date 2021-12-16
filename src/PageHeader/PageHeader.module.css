@@ -1,0 +1,21 @@
+.Container {
+    display: flex;
+    position: relative;
+    left: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container hr {
+    position: absolute;
+    left: 0;
+    width: 12rem;
+    border: 1px solid purple;
+
+}
+
+.Container h1 {
+    color: silver;
+    font-weight: bold;
+    font-size: 3rem;
+}

@@ -23,12 +23,12 @@ const Skill = () => {
     const totalSkills = [frontendSkills, backendSkills, otherSkills]
 
     return (
-        <div className={Classes.Skills}>
+        <div className={Classes.Skills}  id="Skill">
               <PageHeader title={'Skills'}/>
             <p>
-                    I have made collection of the pragramming languages, libraries and frameworks i have been working with at before, during and after my training as a Fullstack developer at Integrify.   
+                    I made this collection of the pragramming languages, libraries and frameworks i have been working with before, during and after my training at Integrify as a Fullstack developer.   
                 </p>
-              <div className={Classes.Container}>
+              <div className={Classes.Container} >
                   <img src={CodeThink} alt='Code cannot be loaded'></img>
                  {totalSkills.map(skills => {
                      return (

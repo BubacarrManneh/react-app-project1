@@ -1,6 +1,7 @@
 .AboutMe {
     background: black;
-    width: 102%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .AboutMe .Container {

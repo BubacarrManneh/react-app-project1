@@ -5,7 +5,7 @@ import World from './../Img/World.svg'
 
 const Home = () => {
     return (
-        <div className={Classes.Home}>
+        <div className={Classes.Home} id="Home">
               <div className={Classes.Container}>
                   <h1 className={Classes.Hello}>Hello, World</h1>
                   <h1>Welcome to my Website</h1>

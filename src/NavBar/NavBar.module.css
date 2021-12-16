@@ -6,13 +6,24 @@
     z-index: 999;
     opacity: 0.9;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    top: 0;
 }
 
 .NavBar .name header {
+    width: 5rem;
     color: white;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+   100% {color: tomato;}
+}
+
+.NavBar .name header:hover {
+  animation: fadeIn 1s;
 }
 .NavBar nav ul {
     list-style: none;
@@ -33,4 +44,35 @@
 
 .NavBar ul li a:hover {
     border-bottom: 2px solid magenta;
+}
+
+/* Hamburger menu */
+
+@media (max-width: 768px){
+    .Navbar .NormalNavbar{
+        display: none;
+    }
+    .Navbar .MobileNavbar{
+     display: flex;
+     flex-direction: column;
+  
+    }
+    .Navbar .MobileNavbar .Hamburger {
+        position: absolute;
+        right: 5%;
+        top: 2%;
+        cursor: pointer;
+    }
+    .Navbar nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        text-align: auto;
+        top: 65px;
+        right: 0;
+        background: orange;
+        width: 100%;
+        border-top: 5px solid maroon;
+        opacity: 1;
+    }
 }

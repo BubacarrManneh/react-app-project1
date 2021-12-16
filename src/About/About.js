@@ -4,7 +4,7 @@ import Classes from './About.module.css'
 import Photo from '../Img/Photo.jpg'
 const About = () => {
     return (
-        <div className={Classes.AboutMe}>
+        <div className={Classes.AboutMe} id="About">
             <PageHeader title={'About Me'}/>
             <div className={Classes.Container}>
                 <div className={Classes.Text}>
