@@ -5,6 +5,7 @@ import ReactThumb from '../Img/ReactThumb.jpg'
 import ReduxThumb from '../Img/ReduxThumb.jpg'
 import JavascriptThumb from '../Img/JavascriptThumb.jpg'
 import Background from '../Img/Background.jpg'
+import { motion } from 'framer-motion'
 
 const playBtnSvg = (url) => {
     return (
@@ -12,8 +13,8 @@ const playBtnSvg = (url) => {
         
             onClick={(e) => window.open(url, "_blank").focus}
             >
-          <svg xmlns="http://www.w3.org/2000/svg"  
-                viewBox="0 0 40 40" width="100px" height="100px">
+          <motion.svg xmlns="http://www.w3.org/2000/svg"  
+                viewBox="0 0 40 40" width="100px" height="100px" whileHover={{scale: 1.2}}>
                 <path fill="#f78f8f" d="M37.625,28.838c-0.378,1.96-1.985,3.453-3.97,3.733c-3.119,0.467-7.817,0.928-13.677,0.928 
                 c-5.765,0-10.558-0.533-13.772-1c-1.985-0.28-3.592-1.773-3.97-3.733c-0.378-2.147-0.732-4.82-0.732-8.74s0.397-6.718,0.775-8.865 
                 c0.378-1.96,1.985-3.453,3.97-3.733c3.119-0.467,7.912-1.053,13.772-1.053S30.485,7.033,33.699,7.5 c1.985,0.28,3.592,1.773,3.97,3.733c0.378,2.147,0.832,4.945,0.832,8.865C38.405,24.018,38.003,26.692,37.625,28.838z"/>
@@ -24,7 +25,8 @@ const playBtnSvg = (url) => {
                 M20.003,6C14.143,6,8.945,6.56,5.826,7.027C3.841,7.307,2.234,8.8,1.856,10.76C1.478,12.907,1.1,16.08,1.1,20 
                 s0.378,7.093,0.756,9.24c0.378,1.96,1.985,3.453,3.97,3.733C9.039,33.44,14.237,34,20.003,34c5.86,0,11.058-0.56,14.177-1.027 
                 c1.985-0.28,3.592-1.773,3.97-3.733C38.527,27.093,38.905,23.92,39,20c0-3.92-0.473-7.093-0.851-9.24 c-0.378-1.96-1.985-3.453-3.97-3.733C30.966,6.56,25.863,6,20.003,6L20.003,6z"/>
-                <polygon fill="red" points="16,26 16,14 27,20"/></svg>
+                <polygon fill="red" points="16,26 16,14 27,20" 
+                 /></motion.svg>
         </div>
     )
 }

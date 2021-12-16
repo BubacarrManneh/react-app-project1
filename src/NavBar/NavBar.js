@@ -1,11 +1,14 @@
 import React from 'react'
 import Classes from './NavBar.module.css'
+import { motion } from 'framer-motion'
 
 const NavBar = () => {
     return (
         <div className={Classes.NavBar}> 
             <div className={Classes.name}>
-                <header >Bubacarr</header>
+                <motion.header initial={{scale: 3}} animate={{scale: 1}} transition={{duration: 3}}
+                
+                >Bubacarr</motion.header>
             </div>
        
            <nav>  
