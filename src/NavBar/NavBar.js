@@ -17,13 +17,16 @@ const NavBar = () => {
                        <a href='/'>Home</a>
                    </li>
                    <li>
+                       <a href='/#'>Projects</a>
+                   </li>
+                   <li>
                        <a href='/#Skill'>Skills</a>
                    </li>
                    <li>
-                       <a href='/#Videos'>Muulti-Media</a>
+                       <a href='/#Videos'>Videos</a>
                    </li>
                    <li>
-                       <a href='/#About'>ABout</a>
+                       <a href='/#About'>About</a>
                    </li>
                    <li>
                        <a href='/#Footer'>Contact</a>
