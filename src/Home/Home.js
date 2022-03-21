@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Classes from './Home.module.css'
 import Code from './../Img/Code.svg'
 import {motion} from 'framer-motion'
@@ -10,7 +11,7 @@ const Home = () => {
         <div className={Classes.Home} id="Home">
             <Wave />
               <div className={Classes.Container}>
-                  <h1 className={Classes.Hello}>Hello, World</h1>
+                  <h1 className={Classes.Hello}>Hello, I'm Bubacarr</h1>
                   <h1>Welcome to my Website</h1>
               </div>
               <img className={Classes.Code} src={Code} alt="cannot be loaded"></img>

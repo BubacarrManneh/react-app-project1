@@ -25,7 +25,7 @@ const Skill = () => {
     return (
         <div className={Classes.Skills}  id="Skill">
               <PageHeader title={'Skills'}/>
-            <p>
+                <p>
                     I made this collection of the pragramming languages, libraries and frameworks i have been working with before, during and after my training at Integrify as a Fullstack developer.   
                 </p>
               <div className={Classes.Container} >

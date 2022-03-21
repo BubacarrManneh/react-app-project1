@@ -38,3 +38,16 @@
   
 }
 
+@media (max-width: 750px) {
+    .Skills p {
+        width: 85%;
+      padding: 2rem;
+     }
+    .Skills .Container img {
+        width: 27.5rem;
+        margin-left: .2rem;
+    }
+    .Skills .List {
+        flex-basis: 100%;
+    }
+}

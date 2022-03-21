@@ -1,74 +1,74 @@
+
 .NavBar {
-    background: purple;
     width: 100%;
-    height: 7rem;
+    height: 80px;
+    background: purple;
+    text-align: center;
+    position: top;
+    z-index: 1000;
+    opacity: 1;
     position: fixed;
-    z-index: 500;
+}
+
+.NavBar .NavLinks {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
     top: 0;
 }
-
-.NavBar .name header {
-    width: 5rem;
-    color: white;
-    margin-left: 10px;
-    padding-left: 2rem;
-    cursor: pointer;
+.NavBar nav{
+    display: flex;
 }
 
-@keyframes fadeIn {
-   100% {color: tomato;}
-}
-
-.NavBar .name header:hover {
-  animation: fadeIn 1s;
-}
 .NavBar nav ul {
+    display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
 }
 
-.NavBar ul li {
+.NavBar nav ul li {
     display: inline-block;
-    margin: 2rem;
+    margin: 1.5rem;
 }
-
+.NavBar nav ul li :hover {
+   color: pink;
+}
 .NavBar a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-
-.NavBar ul li a:hover {
-    border-bottom: 2px solid magenta;
+.NavBar nav header {
+  color: white;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
 }
-
-/* Hamburger menu */
+.NavBar .MobileNavbar {
+    display: none;
+}
 
 @media (max-width: 768px){
-    .Navbar .NormalNavbar{
+    .NavBar .NormalNavbar{
         display: none;
     }
-    .Navbar .MobileNavbar{
+    .NavBar .MobileNavbar {
      display: flex;
      flex-direction: column;
-  
+      z-index: 999;
     }
-    .Navbar .MobileNavbar .Hamburger {
+    .NavBar .MobileNavbar .Hamburger {
         position: absolute;
         right: 5%;
-        top: 2%;
+        top: 1rem;
+        bottom: 2rem;
         cursor: pointer;
     }
-    .Navbar nav ul {
+    .NavBar nav ul {
         display: flex;
         flex-direction: column;
         position: absolute;
         text-align: auto;
-        top: 65px;
+        top: 80px;
         right: 0;
         background: orange;
         width: 100%;

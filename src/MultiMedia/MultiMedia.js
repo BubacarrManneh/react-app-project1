@@ -54,7 +54,7 @@ const Videos = () => {
         <div className={Classes.YouTube} id="Videos">
             <img className={Classes.Background} src={Background} alt="Background"></img>
             <PageHeader title={'YouTube Videos'}/>
-            <dive className={Classes.YouTubeContent}>
+            <div className={Classes.YouTubeContent}>
                 <div className={Classes.Para}>
                     <p>
                         You can find web developement tutuorial videos under this section, you may wish to watch the full content from the content owner's youtube channel.
@@ -65,7 +65,7 @@ const Videos = () => {
                     {youtubeVideo("https://youtu.be/2nZiB1JItbY", JavascriptThumb, javascriptVideoDescription )}
                     {youtubeVideo("https://youtu.be/CVpUuw9XSjY",ReduxThumb, reduxVideoDescription)}
                 </div>
-            </dive>
+            </div>
         </div>
     )
 }

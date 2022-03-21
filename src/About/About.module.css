@@ -1,37 +1,53 @@
 .AboutMe {
-    background: black;
-    width: 100%;
-    box-sizing: border-box;
+  background: black;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .AboutMe .Container {
-    color: white;
-    display: flex;
+  color: white;
+  display: flex;
 }
 .AboutMe .Text {
-    text-align: left;
-    margin-left: 4%;
-    margin-right: 10%;
+  text-align: left;
+  margin-left: 4%;
+  margin-right: 10%;
 }
 
 .AboutMe h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .AboutMe p {
-    text-align: justify;
-    font-size: 1.5rem;
+  text-align: justify;
+  font-size: 1.5rem;
 }
 
 .AboutMe .Profile {
-    width: 40%;
-    height: 50%;
-    margin-right: 5%;
+  width: 50%;
+  margin-right: 5%;
+  justify-content: center;
+  align-items: center;
 }
 .AboutMe .Image {
-    width: 25rem;
-    height: 30rem;
+  width: 90%;
+  border-radius: 10%;
+  align-items: center;
+}
 
-    border-radius: 10%;
-   
+@media (max-width: 750px){
+  .AboutMe .Container{
+    display: flex;
+    flex-direction: column; 
+  }
+  .AboutMe .Container .Text h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .AboutMe .Container .Text p{
+    margin-left: 3rem;
+  }
+  .AboutMe .Container .Profile {
+    margin-left: 7.7rem;
+  }
 }

@@ -10,8 +10,8 @@ const About = () => {
                 <div className={Classes.Text}>
                     <h1>Hello I'm Bubacarr M Manneh</h1>
                     <p>
-                        I am a FullStack developer from Gambia based in The Netherlands. I am an Integrify International Academy Alumni 2022, with skills in different programming languages and frameworks.
-                        I built this simple React responsive website as one of my projects i do ouside of school projects, for the purpose of self study. 
+                        I am a FullStack developer with diversed skillset in programming. I have passion for web development and have developed some web apps and websites.
+                        I built this simple React responsive website as one of my projects aside my traneeship pragram. 
                     </p>
                 </div>
                 <div className={Classes.Profile}>
