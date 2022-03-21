@@ -13,9 +13,10 @@
 }
 
 .Skills p {
-    width: 50%;
+    width: 100%;
     text-align: justify;
-    padding-left: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-top: 0;
     font-size: 1.5rem;
 }
@@ -40,8 +41,8 @@
 
 @media (max-width: 750px) {
     .Skills p {
-        width: 85%;
-      padding: 2rem;
+        width: 100%;
+      padding: 1.5rem;
      }
     .Skills .Container img {
         width: 27.5rem;
