@@ -34,10 +34,10 @@
     .Projects .Iframe {
         display: flex;
         flex-basis: 100%;
-        max-width: 25rem;
+        max-width: 20rem;
     }
     .Projects .LinkBtn {
-        max-width: 25rem;
+        max-width: 20rem;
         text-align: center;
     }
 }
