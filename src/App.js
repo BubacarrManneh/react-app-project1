@@ -6,11 +6,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./About/About";
 import Footer from "./Footer/Footer";
 import Home from "./Home/Home";
-import MultiMedia from "./MultiMedia/MultiMedia";
+// import MultiMedia from "./MultiMedia/MultiMedia";
 import NavBar from './NavBar/NavBar'
 import Skills from "./Skills/Skill";
 import MobileNavbar from "./NavBar/MobileNav";
-// import Navbar from "./NavBar/Nabar";
+import Projects from "./Projects/Projects";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <MultiMedia />
+      <Projects />
       <Footer />
     </div>
   );

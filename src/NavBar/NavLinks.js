@@ -1,8 +1,5 @@
-import React, { Suspense } from "react";
-import { Routes, Route } from "react-router-dom";
 import Classes from "./NavBar.module.css";
 import Header from "../Header/Header";
-import Projects from "../Projects/Projects";
 
 const NavLinks = () => {
   return (
@@ -18,9 +15,6 @@ const NavLinks = () => {
             <a href="/#Skill">Skills</a>
           </li>
           <li>
-            <a href="/#Videos">Videos</a>
-          </li>
-          <li>
             <a href="/#About">About</a>
           </li>
           <li>
@@ -30,13 +24,6 @@ const NavLinks = () => {
             <a href="/#Projects">Projects</a>
           </li>
         </ul>
-        <>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Routes>
-              <Route path="/Projects" exact element={<Projects />} /> Project
-            </Routes>
-          </Suspense>
-        </>
       </nav>
     </div>
   );

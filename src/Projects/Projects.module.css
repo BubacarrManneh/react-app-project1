@@ -1,0 +1,43 @@
+
+.Background {
+    width: 100%;
+}
+.Projects{
+    display: flex;
+    width: 100%;
+    padding: 5rem 0;
+}
+
+.FrameContainer {
+   width: 30rem;
+   margin: .5rem;
+}
+
+.Iframe {
+    margin: .5rem;
+}
+
+.LinkBtn {
+    background: teal;
+    width: 25rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    color:white;
+}
+
+@media (max-width: 750px) {
+    .Projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Projects .Iframe {
+        display: flex;
+        flex-basis: 100%;
+        max-width: 25rem;
+    }
+    .Projects .LinkBtn {
+        max-width: 25rem;
+        text-align: center;
+    }
+}

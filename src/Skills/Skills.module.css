@@ -9,7 +9,6 @@
     flex-wrap: wrap;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 20px;
 }
 
 .Skills p {
@@ -41,12 +40,16 @@
 
 @media (max-width: 750px) {
     .Skills p {
-        width: 100%;
-      padding: 1.5rem;
+      text-align: center;
+      padding: .5rem 1rem;
+      font-size: 1em;
+     }
+     .Skills .Container  {
+         display: flex;
+         flex-basis: 100%;
      }
     .Skills .Container img {
-        width: 27.5rem;
-        margin-left: .2rem;
+        max-width: 25rem;
     }
     .Skills .List {
         flex-basis: 100%;

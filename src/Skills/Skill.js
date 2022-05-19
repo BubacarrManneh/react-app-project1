@@ -26,7 +26,7 @@ const Skill = () => {
         <div className={Classes.Skills}  id="Skill">
               <PageHeader title={'Skills'}/>
                 <p>
-                    I made this collection of the pragramming languages, libraries and frameworks i have been working with before, during and after my training at Integrify as a Fullstack developer.   
+                    I made this collection of the pragramming languages, libraries and frameworks i have been working with to build this project.   
                 </p>
               <div className={Classes.Container} >
                   <img src={CodeThink} alt='Code cannot be loaded'></img>

@@ -55,7 +55,6 @@
     .NavBar .MobileNavbar {
      display: flex;
      flex-direction: column;
-      z-index: 999;
     }
     .NavBar .MobileNavbar .Hamburger {
         position: absolute;
