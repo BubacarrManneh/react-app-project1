@@ -12,6 +12,8 @@
   text-align: left;
   margin-left: 4%;
   margin-right: 10%;
+  padding-top: 3rem;
+  padding-bottom: 10rem ;
 }
 
 .AboutMe h1 {
@@ -39,17 +41,23 @@
   .AboutMe .Container{
     display: flex;
     flex-direction: column; 
+    text-align: center;
   }
   .AboutMe .Container .Text h1 {
     font-size: 1.5em;
     text-align: center;
-    margin-bottom: 1.5rem;
+  }
+  .AboutMe .Container .Text {
+    padding: .2rem 0;
   }
   .AboutMe .Container .Text p{
     font-size: 1em;
     text-align: center;
   }
   .AboutMe .Container .Profile {
-    margin-left: 7.7rem;
+    align-self: center;
+  }
+  .AboutMe .Image {
+    padding-bottom: 1.5rem;
   }
 }

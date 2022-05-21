@@ -5,22 +5,27 @@ import CodeThink from '../Img/CodeThink.svg'
 
 const Skill = () => {
     const titleStyle = { fontWeight: 900, color: '#9B1FE8', marginBottom: '5px', paddingTop: '15px'}
-    const frontendSkills = <ul>
+    const frontendSkills = (
+      <ul>
         <li style={titleStyle}>FRONTEND</li>
-        <li>Ajax - JavaSCript - Express - NodeJs - React - Redux</li>
-        <li>Bootstrap - CSS3 - HTML5 - Material-Ui</li>
-    </ul>
-    const backendSkills = <ul>
+        <li>Ajax-HTML5 - JavaSCript - React - Redux - TypeScript</li>
+        <li>Bootstrap - CSS3 - Material-Ui - Tailwindcss</li>
+      </ul>
+    );
+    const backendSkills = (
+      <ul>
         <li style={titleStyle}>BACKEND</li>
-        <li>MongoDB - MySQL - PostgreSql - Databases  - PHP</li>
-        <li> Docker - AWS</li>
-    </ul>
-    const otherSkills = <ul>
-        <li style={titleStyle}>OTHERS</li>
-        <li>AWS -Docker - Git - GitHub Action -Bash Scripting</li>
-        <li>Bash Scripting</li>
-    </ul>
-    const totalSkills = [frontendSkills, backendSkills, otherSkills]
+        <li>MongoDB - Express - MySQL - NodeJs</li>
+        <li> PHP - PostgreSQL - Rest API</li>
+      </ul>
+    );
+    const DevOpsSkills = (
+      <ul>
+        <li style={titleStyle}>DevOps</li>
+        <li>AWS - Bash Scripting - Docker - Git - GitHub Action</li>
+      </ul>
+    );
+    const totalSkills = [frontendSkills, backendSkills, DevOpsSkills]
 
     return (
         <div className={Classes.Skills}  id="Skill">

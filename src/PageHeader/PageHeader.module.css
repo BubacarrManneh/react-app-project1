@@ -18,6 +18,7 @@
     color: silver;
     font-weight: bold;
     font-size: 3rem;
+    padding: 2rem 0;
 }
 
 @media (max-width: 750px){

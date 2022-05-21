@@ -8,7 +8,7 @@ const About = () => {
             <PageHeader title={'About Me'}/>
             <div className={Classes.Container}>
                 <div className={Classes.Text}>
-                    <h1>Hello I'm Bubacarr M Manneh</h1>
+                    <h1>Hello I'm Bubacarr Manneh</h1>
                     <p>
                         I am a FullStack developer with diversed skillset in programming. I have passion for web development and have developed some web apps and websites.
                         I built this simple React responsive website as one of my projects aside my traneeship pragram. 

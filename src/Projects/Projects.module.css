@@ -30,6 +30,7 @@
     .Projects {
         display: flex;
         flex-wrap: wrap;
+        padding-top: .5rem;
     }
     .Projects .Iframe {
         display: flex;
@@ -37,7 +38,8 @@
         max-width: 20rem;
     }
     .Projects .LinkBtn {
-        max-width: 20rem;
-        text-align: center;
+        width: 20rem;
+        /* text-align: center; */
+        align-items: flex-start;
     }
 }

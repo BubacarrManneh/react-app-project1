@@ -1,7 +1,6 @@
 .Skills {
     background: #141313;
     color: white;
-
 }
 
 .Skills .Container {
@@ -10,12 +9,9 @@
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .Skills p {
     width: 100%;
-    text-align: justify;
-    padding-left: 2%;
-    padding-right: 2%;
+    text-align: center;
     margin-top: 0;
     font-size: 1.5rem;
 }
