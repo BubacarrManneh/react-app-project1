@@ -8,7 +8,8 @@ const Skill = () => {
     const frontendSkills = (
       <ul>
         <li style={titleStyle}>FRONTEND</li>
-        <li>Ajax-HTML5 - JavaSCript - React - Redux - TypeScript</li>
+        <li>Ajax-HTML5 - JavaSCript - JQuery</li>
+        <li>React - Redux - TypeScript</li>
         <li>Bootstrap - CSS3 - Material-Ui - Tailwindcss</li>
       </ul>
     );
@@ -22,10 +23,18 @@ const Skill = () => {
     const DevOpsSkills = (
       <ul>
         <li style={titleStyle}>DevOps</li>
-        <li>AWS - Bash Scripting - Docker - Git - GitHub Action</li>
+        <li>Bash Scripting - Docker Container</li>
+        <li>Git - GitHub Action</li>
       </ul>
     );
-    const totalSkills = [frontendSkills, backendSkills, DevOpsSkills]
+
+    const Clouds = (
+      <ul>
+        <li style={titleStyle}>Clouds</li>
+        <li> AWS - Google Clouds</li>
+      </ul>
+    );
+    const totalSkills = [frontendSkills, backendSkills, DevOpsSkills , Clouds]
 
     return (
         <div className={Classes.Skills}  id="Skill">
